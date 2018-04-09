@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mmamm.semesterproject.MainActivity">
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="97dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:minWidth="97dp"
+        android:text="@string/new_game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPreferences"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="3dp"
+        android:minWidth="126dp"
+        android:text="@string/preferences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="351dp"
+        android:layout_height="351dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:showDividers="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNewGame">
+
+        <TableRow
+            android:id="@+id/Row0"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input0-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input0-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input1-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input1-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input2-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input2-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input3-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input3-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input4-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input4-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input5-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input5-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input6-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input6-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row7"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input7-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input7-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row8"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <EditText
+                android:id="@+id/input8-0"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-1"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-2"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-3"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-4"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-5"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-6"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-7"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/input8-8"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="3dp"
+        android:text="@string/_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn6" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn7" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn8" />
+
+    <Button
+        android:id="@+id/btnUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="33dp"
+        android:text="@string/undo"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnErase"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="27dp"
+        android:text="@string/erase"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintStart_toEndOf="@+id/btnUndo" />
+
+    <Button
+        android:id="@+id/btnHint"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="27dp"
+        android:text="@string/hint"
+        app:layout_constraintBottom_toTopOf="@+id/btn8"
+        app:layout_constraintStart_toEndOf="@+id/btnErase" />
+
+</android.support.constraint.ConstraintLayout>
