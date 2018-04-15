@@ -30,15 +30,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
+        android:id="@+id/tableLayout4"
         android:layout_width="351dp"
         android:layout_height="351dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="17dp"
         android:layout_marginTop="7dp"
         android:showDividers="none"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNewGame">
+        app:layout_constraintTop_toBottomOf="@+id/btnNewGame"
+        tools:layout_editor_absoluteX="17dp">
 
         <TableRow
             android:id="@+id/Row0"
@@ -105,68 +103,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input1-0"
+            <Spinner
+                android:id="@+id/spinner1-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-1"
+            <Spinner
+                android:id="@+id/spinner1-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-2"
+            <Spinner
+                android:id="@+id/spinner1-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-3"
+            <Spinner
+                android:id="@+id/spinner1-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-4"
+            <Spinner
+                android:id="@+id/spinner1-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-5"
+            <Spinner
+                android:id="@+id/spinner1-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-6"
+            <Spinner
+                android:id="@+id/spinner1-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-7"
+            <Spinner
+                android:id="@+id/spinner1-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input1-8"
+            <Spinner
+                android:id="@+id/spinner1-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -174,68 +163,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input2-0"
+            <Spinner
+                android:id="@+id/spinner2-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-1"
+            <Spinner
+                android:id="@+id/spinner2-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-2"
+            <Spinner
+                android:id="@+id/spinner2-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-3"
+            <Spinner
+                android:id="@+id/spinner2-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-4"
+            <Spinner
+                android:id="@+id/spinner2-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-5"
+            <Spinner
+                android:id="@+id/spinner2-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-6"
+            <Spinner
+                android:id="@+id/spinner2-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-7"
+            <Spinner
+                android:id="@+id/spinner2-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input2-8"
+            <Spinner
+                android:id="@+id/spinner2-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -243,68 +223,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input3-0"
+            <Spinner
+                android:id="@+id/spinner3-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-1"
+            <Spinner
+                android:id="@+id/spinner3-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-2"
+            <Spinner
+                android:id="@+id/spinner3-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-3"
+            <Spinner
+                android:id="@+id/spinner3-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-4"
+            <Spinner
+                android:id="@+id/spinner3-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-5"
+            <Spinner
+                android:id="@+id/spinner3-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-6"
+            <Spinner
+                android:id="@+id/spinner3-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-7"
+            <Spinner
+                android:id="@+id/spinner3-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input3-8"
+            <Spinner
+                android:id="@+id/spinner3-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -312,68 +283,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input4-0"
+            <Spinner
+                android:id="@+id/spinner4-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-1"
+            <Spinner
+                android:id="@+id/spinner4-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-2"
+            <Spinner
+                android:id="@+id/spinner4-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-3"
+            <Spinner
+                android:id="@+id/spinner4-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-4"
+            <Spinner
+                android:id="@+id/spinner4-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-5"
+            <Spinner
+                android:id="@+id/spinner4-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-6"
+            <Spinner
+                android:id="@+id/spinner4-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-7"
+            <Spinner
+                android:id="@+id/spinner4-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input4-8"
+            <Spinner
+                android:id="@+id/spinner4-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -381,68 +343,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input5-0"
+            <Spinner
+                android:id="@+id/spinner5-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-1"
+            <Spinner
+                android:id="@+id/spinner5-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-2"
+            <Spinner
+                android:id="@+id/spinner5-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-3"
+            <Spinner
+                android:id="@+id/spinner5-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-4"
+            <Spinner
+                android:id="@+id/spinner5-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-5"
+            <Spinner
+                android:id="@+id/spinner5-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-6"
+            <Spinner
+                android:id="@+id/spinner5-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-7"
+            <Spinner
+                android:id="@+id/spinner5-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input5-8"
+            <Spinner
+                android:id="@+id/spinner5-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -450,68 +403,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input6-0"
+            <Spinner
+                android:id="@+id/spinner6-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-1"
+            <Spinner
+                android:id="@+id/spinner6-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-2"
+            <Spinner
+                android:id="@+id/spinner6-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-3"
+            <Spinner
+                android:id="@+id/spinner6-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-4"
+            <Spinner
+                android:id="@+id/spinner6-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-5"
+            <Spinner
+                android:id="@+id/spinner6-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-6"
+            <Spinner
+                android:id="@+id/spinner6-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-7"
+            <Spinner
+                android:id="@+id/spinner6-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input6-8"
+            <Spinner
+                android:id="@+id/spinner6-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -519,68 +463,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input7-0"
+            <Spinner
+                android:id="@+id/spinner7-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-1"
+            <Spinner
+                android:id="@+id/spinner7-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-2"
+            <Spinner
+                android:id="@+id/spinner7-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-3"
+            <Spinner
+                android:id="@+id/spinner7-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-4"
+            <Spinner
+                android:id="@+id/spinner7-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-5"
+            <Spinner
+                android:id="@+id/spinner7-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-6"
+            <Spinner
+                android:id="@+id/spinner7-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-7"
+            <Spinner
+                android:id="@+id/spinner7-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input7-8"
+            <Spinner
+                android:id="@+id/spinner7-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -588,68 +523,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input8-0"
+            <Spinner
+                android:id="@+id/spinner8-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-1"
+            <Spinner
+                android:id="@+id/spinner8-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-2"
+            <Spinner
+                android:id="@+id/spinner8-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-3"
+            <Spinner
+                android:id="@+id/spinner8-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-4"
+            <Spinner
+                android:id="@+id/spinner8-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-5"
+            <Spinner
+                android:id="@+id/spinner8-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-6"
+            <Spinner
+                android:id="@+id/spinner8-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-7"
+            <Spinner
+                android:id="@+id/spinner8-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input8-8"
+            <Spinner
+                android:id="@+id/spinner8-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
     </TableLayout>
 
@@ -657,18 +583,19 @@
         android:id="@+id/btnUndo"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginStart="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="32dp"
         android:text="@string/undo"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintEnd_toStartOf="@+id/btnHint"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
 
     <Button
         android:id="@+id/btnHint"
         android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="85dp"
+        android:layout_marginTop="32dp"
         android:text="@string/hint"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4"
+        tools:layout_editor_absoluteX="200dp" />
 
 </android.support.constraint.ConstraintLayout>
