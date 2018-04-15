@@ -31,11 +31,11 @@
 
     <TableLayout
         android:id="@+id/tableLayout4"
-        android:layout_width="360dp"
-        android:layout_height="360dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="374dp"
+        android:layout_height="374dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/black"
         android:showDividers="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,460 +44,760 @@
         <TableRow
             android:id="@+id/Row0"
             android:layout_width="match_parent"
-            android:layout_height="40dp">
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp">
 
             <TextView
                 android:id="@+id/textView0-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView0-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row1"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView1-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView1-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row2"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView2-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView2-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row3"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp">
 
             <TextView
                 android:id="@+id/textView3-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView3-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row4"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView4-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView4-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row5"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView5-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView5-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row6"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp">
 
             <TextView
                 android:id="@+id/textView6-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView6-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row7"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView7-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView7-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
 
         <TableRow
             android:id="@+id/Row8"
             android:layout_width="match_parent"
-            android:layout_height="39dp">
+            android:layout_height="39dp"
+            android:layout_marginLeft="2dp">
 
             <TextView
                 android:id="@+id/textView8-0"
                 android:layout_width="40dp"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-1"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-2"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-3"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-4"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-5"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-6"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-7"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView8-8"
                 android:layout_width="40dp"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:textAlignment="center" />
         </TableRow>
     </TableLayout>
 
