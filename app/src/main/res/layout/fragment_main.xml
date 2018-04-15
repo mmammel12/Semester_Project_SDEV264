@@ -45,69 +45,59 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <EditText
-                android:id="@+id/input0-0"
+            <Spinner
+                android:id="@+id/spinner0-0"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-1"
+            <Spinner
+                android:id="@+id/spinner0-1"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-2"
+            <Spinner
+                android:id="@+id/spinner0-2"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-3"
+            <Spinner
+                android:id="@+id/spinner0-3"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-4"
+            <Spinner
+                android:id="@+id/spinner0-4"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-5"
+            <Spinner
+                android:id="@+id/spinner0-5"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-6"
+            <Spinner
+                android:id="@+id/spinner0-6"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-7"
+            <Spinner
+                android:id="@+id/spinner0-7"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:entries="@array/sudoku_spinner" />
 
-            <EditText
-                android:id="@+id/input0-8"
+            <Spinner
+                android:id="@+id/spinner0-8"
                 android:layout_width="39dp"
                 android:layout_height="39dp"
-                android:ems="10"
-                android:inputType="number" />
-
+                android:entries="@array/sudoku_spinner" />
         </TableRow>
 
         <TableRow
@@ -664,115 +654,21 @@
     </TableLayout>
 
     <Button
-        android:id="@+id/btn1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="3dp"
-        android:text="@string/_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn1" />
-
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn2" />
-
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn3" />
-
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn4" />
-
-    <Button
-        android:id="@+id/btn6"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn5" />
-
-    <Button
-        android:id="@+id/btn7"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn6" />
-
-    <Button
-        android:id="@+id/btn8"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn7" />
-
-    <Button
-        android:id="@+id/btn9"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/_9"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn8" />
-
-    <Button
         android:id="@+id/btnUndo"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="33dp"
+        android:layout_marginStart="85dp"
         android:text="@string/undo"
-        app:layout_constraintBottom_toTopOf="@+id/btn1"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btnErase"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="27dp"
-        android:text="@string/erase"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
-        app:layout_constraintStart_toEndOf="@+id/btnUndo" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="434dp" />
 
     <Button
         android:id="@+id/btnHint"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="27dp"
+        android:layout_marginEnd="85dp"
         android:text="@string/hint"
-        app:layout_constraintBottom_toTopOf="@+id/btn8"
-        app:layout_constraintStart_toEndOf="@+id/btnErase" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="434dp" />
 
 </android.support.constraint.ConstraintLayout>
