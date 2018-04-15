@@ -49,40 +49,48 @@
             android:layout_marginTop="2dp">
 
             <TextView
-                android:id="@+id/textView0-0"
+                android:id="@+id/textView0_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-1"
+                android:id="@+id/textView0_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-2"
+                android:id="@+id/textView0_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-3"
+                android:id="@+id/textView0_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0-4"
@@ -91,42 +99,52 @@
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-5"
+                android:id="@+id/textView0_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-6"
+                android:id="@+id/textView0_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-7"
+                android:id="@+id/textView0_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView0-8"
+                android:id="@+id/textView0_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -136,84 +154,102 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView1-0"
+                android:id="@+id/textView1_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-1"
+                android:id="@+id/textView1_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-2"
+                android:id="@+id/textView1_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-3"
+                android:id="@+id/textView1_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-4"
+                android:id="@+id/textView1_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-5"
+                android:id="@+id/textView1_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-6"
+                android:id="@+id/textView1_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-7"
+                android:id="@+id/textView1_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView1-8"
+                android:id="@+id/textView1_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -223,75 +259,93 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView2-0"
+                android:id="@+id/textView2_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-1"
+                android:id="@+id/textView2_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-2"
+                android:id="@+id/textView2_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-3"
+                android:id="@+id/textView2_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-4"
+                android:id="@+id/textView2_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-5"
+                android:id="@+id/textView2_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-6"
+                android:id="@+id/textView2_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-7"
+                android:id="@+id/textView2_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView2-8"
+                android:id="@+id/textView2_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -302,84 +356,102 @@
             android:layout_marginTop="2dp">
 
             <TextView
-                android:id="@+id/textView3-0"
+                android:id="@+id/textView3_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-1"
+                android:id="@+id/textView3_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-2"
+                android:id="@+id/textView3_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-3"
+                android:id="@+id/textView3_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-4"
+                android:id="@+id/textView3_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-5"
+                android:id="@+id/textView3_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-6"
+                android:id="@+id/textView3_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-7"
+                android:id="@+id/textView3_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView3-8"
+                android:id="@+id/textView3_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -389,84 +461,102 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView4-0"
+                android:id="@+id/textView4_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-1"
+                android:id="@+id/textView4_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-2"
+                android:id="@+id/textView4_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-3"
+                android:id="@+id/textView4_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-4"
+                android:id="@+id/textView4_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-5"
+                android:id="@+id/textView4_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-6"
+                android:id="@+id/textView4_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-7"
+                android:id="@+id/textView4_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView4-8"
+                android:id="@+id/textView4_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -476,75 +566,93 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView5-0"
+                android:id="@+id/textView5_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-1"
+                android:id="@+id/textView5_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-2"
+                android:id="@+id/textView5_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-3"
+                android:id="@+id/textView5_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-4"
+                android:id="@+id/textView5_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-5"
+                android:id="@+id/textView5_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-6"
+                android:id="@+id/textView5_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-7"
+                android:id="@+id/textView5_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView5-8"
+                android:id="@+id/textView5_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -555,84 +663,102 @@
             android:layout_marginTop="2dp">
 
             <TextView
-                android:id="@+id/textView6-0"
+                android:id="@+id/textView6_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-1"
+                android:id="@+id/textView6_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-2"
+                android:id="@+id/textView6_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-3"
+                android:id="@+id/textView6_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-4"
+                android:id="@+id/textView6_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-5"
+                android:id="@+id/textView6_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-6"
+                android:id="@+id/textView6_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-7"
+                android:id="@+id/textView6_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView6-8"
+                android:id="@+id/textView6_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -642,84 +768,102 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView7-0"
+                android:id="@+id/textView7_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-1"
+                android:id="@+id/textView7_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-2"
+                android:id="@+id/textView7_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-3"
+                android:id="@+id/textView7_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-4"
+                android:id="@+id/textView7_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-5"
+                android:id="@+id/textView7_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-6"
+                android:id="@+id/textView7_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-7"
+                android:id="@+id/textView7_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView7-8"
+                android:id="@+id/textView7_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
 
         <TableRow
@@ -729,75 +873,93 @@
             android:layout_marginLeft="2dp">
 
             <TextView
-                android:id="@+id/textView8-0"
+                android:id="@+id/textView8_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-1"
+                android:id="@+id/textView8_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-2"
+                android:id="@+id/textView8_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-3"
+                android:id="@+id/textView8_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-4"
+                android:id="@+id/textView8_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-5"
+                android:id="@+id/textView8_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-6"
+                android:id="@+id/textView8_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-7"
+                android:id="@+id/textView8_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/textView8-8"
+                android:id="@+id/textView8_8"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
         </TableRow>
     </TableLayout>
 
