@@ -1,6 +1,7 @@
 package com.example.mmamm.semesterproject;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View.OnClickListener;
@@ -222,6 +223,12 @@ public class MainFragment extends Fragment implements OnClickListener {
         Button btnHint = view.findViewById(R.id.btnHint);
 
         /// set event listeners
+        // buttons
+        btnNewGame.setOnClickListener(this);
+        btnPreferences.setOnClickListener(this);
+        btnUndo.setOnClickListener(this);
+        btnHint.setOnClickListener(this);
+
         // bottom row numbers to set current number
         set1.setOnClickListener(this);
         set2.setOnClickListener(this);
@@ -331,6 +338,19 @@ public class MainFragment extends Fragment implements OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            // Buttons
+            case R.id.btnNewGame:
+                // TODO new game stuff for button
+                break;
+            case R.id.btnPreferences:
+                startActivity(new Intent(getActivity(), Preferences.class));
+                break;
+            case R.id.btnUndo:
+                // TODO make undo button work
+                break;
+            case R.id.btnHint:
+                // TODO make hint button work
+                break;
             // bottom row numbers to set current number
             case R.id.set1:
                 selectedNumber = 1;
@@ -358,7 +378,7 @@ public class MainFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.set9:
                 selectedNumber = 9;
-                break;
+                break; /*
             // sudoku cells
             // Row 0
             case R.id.textView0_0:
@@ -611,20 +631,7 @@ public class MainFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.textView8_8:
                 textView8_8.setText(selectedNumber);
-                break;
-            // Buttons
-            case R.id.btnNewGame:
-                // TODO new game stuff for button
-                break;
-            case R.id.btnPreferences:
-                // TODO go to preferences from btnPreferences
-                break;
-            case R.id.btnUndo:
-                // TODO make undo button work
-                break;
-            case R.id.btnHint:
-                // TODO make hint button work
-                break;
+                break; */
         }
     }
 
