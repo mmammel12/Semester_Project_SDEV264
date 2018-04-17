@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
     tools:context="com.example.mmamm.semesterproject.MainActivity">
 
     <Button
@@ -45,7 +46,7 @@
             android:id="@+id/Row0"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="2dp">
 
             <TextView
@@ -53,8 +54,10 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -64,8 +67,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -75,8 +79,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -86,8 +91,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -97,8 +103,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -108,8 +115,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -119,8 +127,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -130,8 +139,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -142,6 +152,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -151,15 +162,16 @@
             android:id="@+id/Row1"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView1_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -169,8 +181,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -180,8 +193,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -191,8 +205,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -202,8 +217,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -213,8 +229,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -224,8 +241,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -235,8 +253,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -247,6 +266,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -256,14 +276,15 @@
             android:id="@+id/Row2"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView2_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -272,8 +293,9 @@
                 android:id="@+id/textView2_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -282,8 +304,9 @@
                 android:id="@+id/textView2_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -292,8 +315,9 @@
                 android:id="@+id/textView2_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -302,8 +326,9 @@
                 android:id="@+id/textView2_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -312,8 +337,9 @@
                 android:id="@+id/textView2_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -322,8 +348,9 @@
                 android:id="@+id/textView2_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -332,8 +359,9 @@
                 android:id="@+id/textView2_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -343,6 +371,7 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -352,7 +381,7 @@
             android:id="@+id/Row3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="2dp">
 
             <TextView
@@ -360,8 +389,9 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -371,8 +401,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -382,8 +413,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -393,8 +425,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -404,8 +437,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -415,8 +449,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -426,8 +461,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -437,8 +473,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -449,6 +486,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -458,15 +496,16 @@
             android:id="@+id/Row4"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView4_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -476,8 +515,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -487,8 +527,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -498,8 +539,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -509,8 +551,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -520,8 +563,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -531,8 +575,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -542,8 +587,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -554,6 +600,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -563,14 +610,15 @@
             android:id="@+id/Row5"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView5_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -579,8 +627,9 @@
                 android:id="@+id/textView5_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -589,8 +638,9 @@
                 android:id="@+id/textView5_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -599,8 +649,9 @@
                 android:id="@+id/textView5_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -609,8 +660,9 @@
                 android:id="@+id/textView5_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -619,8 +671,9 @@
                 android:id="@+id/textView5_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -629,8 +682,9 @@
                 android:id="@+id/textView5_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -639,8 +693,9 @@
                 android:id="@+id/textView5_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -650,6 +705,7 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -659,7 +715,7 @@
             android:id="@+id/Row6"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="2dp">
 
             <TextView
@@ -667,8 +723,9 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -678,8 +735,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -689,8 +747,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -700,8 +759,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -711,8 +771,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -722,8 +783,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -733,8 +795,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -744,8 +807,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -756,6 +820,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -765,15 +830,16 @@
             android:id="@+id/Row7"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView7_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -783,8 +849,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -794,8 +861,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -805,8 +873,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -816,8 +885,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -827,8 +897,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -838,8 +909,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -849,8 +921,9 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -861,6 +934,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -870,14 +944,15 @@
             android:id="@+id/Row8"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginStart="2dp">
 
             <TextView
                 android:id="@+id/textView8_0"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -886,8 +961,9 @@
                 android:id="@+id/textView8_1"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -896,8 +972,9 @@
                 android:id="@+id/textView8_2"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -906,8 +983,9 @@
                 android:id="@+id/textView8_3"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -916,8 +994,9 @@
                 android:id="@+id/textView8_4"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -926,8 +1005,9 @@
                 android:id="@+id/textView8_5"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -936,8 +1016,9 @@
                 android:id="@+id/textView8_6"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -946,8 +1027,9 @@
                 android:id="@+id/textView8_7"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:layout_marginRight="1dp"
+                android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
@@ -957,6 +1039,7 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/white"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />

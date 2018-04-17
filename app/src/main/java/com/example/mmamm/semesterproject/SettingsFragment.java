@@ -66,10 +66,10 @@ public class SettingsFragment extends Fragment implements View.OnClickListener, 
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
             case R.id.RbtnLight:
-                SettingsView.setBackgroundColor(Color.parseColor("#FFFFFFFF"));
+                // TODO change theme to light
                 break;
             case R.id.RbtnDark:
-                SettingsView.setBackgroundColor(Color.parseColor("#1b1b1b"));
+                // TODO change theme to dark
                 break;
             case R.id.RbtnEasy:
                 // TODO add difficulty stuff
