@@ -11,7 +11,7 @@
         android:layout_width="match_parent" />
 
     <fragment
-        android:name="com.example.mmamm.semesterproject.SettingsFragment"
+        android:name="com.example.mmamm.semesterproject.PreferencesFragment"
         android:id="@+id/fragment_preferences"
         android:layout_weight="1"
         android:layout_height="0dp"

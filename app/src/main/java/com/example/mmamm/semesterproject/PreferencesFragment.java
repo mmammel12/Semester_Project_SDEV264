@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +16,7 @@ import android.widget.RadioGroup;
  * Created by mmamm on 4/1/2018.
  */
 
-public class SettingsFragment extends Fragment implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
+public class PreferencesFragment extends Fragment implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
 
     private Button btnHome;
     private Button btnStats;
@@ -65,10 +66,12 @@ public class SettingsFragment extends Fragment implements View.OnClickListener, 
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
             case R.id.RbtnLight:
+                Log.d("activity:", getActivity().toString());
                 myTheme = R.style.SemesterProjectLight;
                 getActivity().setTheme(myTheme);
                 break;
             case R.id.RbtnDark:
+                Log.d("activity:", getActivity().toString());
                 myTheme = R.style.SemesterProjectDark;
                 getActivity().setTheme(myTheme);
                 break;
