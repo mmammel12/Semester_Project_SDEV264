@@ -22,7 +22,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener, 
     private Button btnHowToPlay;
     private RadioGroup RgroupTheme;
     private RadioGroup RgroupDifficulty;
-    private ConstraintLayout SettingsView;
+    private int myTheme;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -33,7 +33,6 @@ public class SettingsFragment extends Fragment implements View.OnClickListener, 
         Button btnHowToPlay = view.findViewById(R.id.btnHowToPlay);
         RadioGroup RgroupTheme = view.findViewById(R.id.RgroupTheme);
         RadioGroup RgroupDifficulty = view.findViewById(R.id.RgroupDifficulty);
-        ConstraintLayout SettingsView = view.findViewById(R.id.PreferencesLayout);
 
         // Event listeners
         // buttons
@@ -66,17 +65,21 @@ public class SettingsFragment extends Fragment implements View.OnClickListener, 
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
             case R.id.RbtnLight:
-                // TODO change theme to light
+                myTheme = R.style.SemesterProjectLight;
+                getActivity().setTheme(myTheme);
                 break;
             case R.id.RbtnDark:
-                // TODO change theme to dark
+                myTheme = R.style.SemesterProjectDark;
+                getActivity().setTheme(myTheme);
                 break;
             case R.id.RbtnEasy:
                 // TODO add difficulty stuff
                 break;
             case R.id.RbtnMedium:
+                // TODO
                 break;
             case R.id.RbtnHard:
+                // TODO
                 break;
         }
     }

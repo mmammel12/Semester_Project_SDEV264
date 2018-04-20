@@ -32,8 +32,8 @@
 
     <TableLayout
         android:id="@+id/tableLayout4"
-        android:layout_width="374dp"
-        android:layout_height="374dp"
+        android:layout_width="347dp"
+        android:layout_height="347dp"
         android:layout_marginEnd="4dp"
         android:layout_marginStart="4dp"
         android:background="@android:color/black"
@@ -51,110 +51,109 @@
 
             <TextView
                 android:id="@+id/textView0_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
                 android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0-4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView0_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -166,109 +165,109 @@
 
             <TextView
                 android:id="@+id/textView1_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView1_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -280,100 +279,100 @@
 
             <TextView
                 android:id="@+id/textView2_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView2_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -386,109 +385,109 @@
 
             <TextView
                 android:id="@+id/textView3_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView3_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -500,109 +499,109 @@
 
             <TextView
                 android:id="@+id/textView4_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView4_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -614,100 +613,100 @@
 
             <TextView
                 android:id="@+id/textView5_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView5_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -720,109 +719,109 @@
 
             <TextView
                 android:id="@+id/textView6_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView6_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -834,109 +833,109 @@
 
             <TextView
                 android:id="@+id/textView7_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView7_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginBottom="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
 
@@ -948,100 +947,100 @@
 
             <TextView
                 android:id="@+id/textView8_0"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_1"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_2"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_3"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_4"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_5"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="2dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_6"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_7"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginEnd="1dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/textView8_8"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:background="@android:color/white"
                 android:clickable="true"
+                android:onClick="setTextView"
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="30sp" />
         </TableRow>
     </TableLayout>
@@ -1053,6 +1052,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:onClick="undo"
         android:text="@string/undo"
         app:layout_constraintEnd_toStartOf="@+id/btnHint"
         app:layout_constraintHorizontal_bias="0.708"
@@ -1083,6 +1083,8 @@
             android:id="@+id/set1"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_1"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1093,6 +1095,8 @@
             android:id="@+id/set2"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_2"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1103,6 +1107,8 @@
             android:id="@+id/set3"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_3"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1113,6 +1119,8 @@
             android:id="@+id/set4"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_4"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1123,6 +1131,8 @@
             android:id="@+id/set5"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_5"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1133,6 +1143,8 @@
             android:id="@+id/set6"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_6"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1143,6 +1155,8 @@
             android:id="@+id/set7"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_7"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1153,6 +1167,8 @@
             android:id="@+id/set8"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_8"
             android:textAlignment="center"
             android:textSize="30sp"
@@ -1163,6 +1179,8 @@
             android:id="@+id/set9"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="setSelectedNumber"
             android:text="@string/_9"
             android:textAlignment="center"
             android:textSize="30sp"
