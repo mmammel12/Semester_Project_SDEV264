@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private String selectedNumber = "1";
     private TextView lastChange;
     private String beforeText;
+    private int[][] rows = new int[9][9];
     private Generator generator;
 
     public MainActivity() {
@@ -49,5 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void newGame(View v) {
         generator.main();
+        rows = generator.getRows();
     }
 }

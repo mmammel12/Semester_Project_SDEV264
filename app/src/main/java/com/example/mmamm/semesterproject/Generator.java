@@ -302,4 +302,8 @@ public class Generator {
             }
         }
     }
+
+    public int[][] getRows() {
+        return rows;
+    }
 }
