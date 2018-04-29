@@ -1,6 +1,5 @@
 package com.example.mmamm.semesterproject;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +12,11 @@ public class MainActivity extends AppCompatActivity {
     private String selectedNumber = "1";
     private TextView lastChange;
     private String beforeText;
+    private Generator generator;
 
+    public MainActivity() {
+        this.generator = new Generator();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,5 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void hint(View v) {
         // TODO create hint button logic
+    }
+
+    public void newGame(View v) {
+        generator.main();
     }
 }

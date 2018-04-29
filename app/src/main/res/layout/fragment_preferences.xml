@@ -54,6 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:onClick="setLightTheme"
             android:text="@string/light" />
 
         <RadioButton
@@ -61,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="setDarkTheme"
             android:text="@string/dark" />
     </RadioGroup>
 
