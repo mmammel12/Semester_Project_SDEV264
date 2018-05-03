@@ -1,6 +1,7 @@
 package com.example.mmamm.semesterproject;
 
 import java.util.Random;
+import android.util.Log;
 
 public class Generator {
     private int[][] rows = new int[9][9];
@@ -11,12 +12,32 @@ public class Generator {
         populateArrays();
     }
 
-    private void populateArrays() {
+    public void populateArrays() {
         Random random = new Random();
+        int area = 0;
         for (int i=0; i<9; i++) {
             for (int j=0; j<9; j++) {
+                if (i <= 2 && j <= 2) {
+                    area = 0;
+                } else if (i <=2 && (j >=3 && j <=5)) {
+                    area = 1;
+                } else if (i <=2 && j >= 6) {
+                    area = 2;
+                } else if ((i >= 3 && i <= 5) && j <=2) {
+                    area = 3;
+                } else if ((i >= 3 && i <= 5) && (j >=3 && j <=5)) {
+                    area = 4;
+                } else if ((i >= 3 && i <= 5) && j >= 6) {
+                    area = 5;
+                } else if (i >= 6 && j <= 2) {
+                    area = 6;
+                } else if (i >= 6 && (j >=3 && j <=5)) {
+                    area = 7;
+                } else if (i >= 6 && j >= 6) {
+                    area = 8;
+                }
                 int num = random.nextInt(9) + 1;
-                while (intInArray(num, rows[i]) || intInArray(num, columns[i]) || intInArray(num, areas[i])) {
+                while (intInArray(num, rows[i]) || intInArray(num, columns[j]) || intInArray(num, areas[area])) {
                     num = random.nextInt(9) + 1;
                 }
                 rows[i][j] = num;
@@ -30,9 +51,10 @@ public class Generator {
         boolean inArray = true;
         for (int i=0; i<9; i++) {
             if (arr[i] == num) {
-                break; // number in array
+                inArray = true; // number in array
+                break;
             }
-            else {
+            else if (i == 8) {
                 inArray = false;
             }
         }

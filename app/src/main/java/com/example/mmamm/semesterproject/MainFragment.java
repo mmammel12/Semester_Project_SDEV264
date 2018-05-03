@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 public class MainFragment extends Fragment implements OnClickListener {
 
-    public TextView textView0_0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
