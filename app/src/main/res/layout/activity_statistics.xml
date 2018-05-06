@@ -63,7 +63,7 @@
                 android:layout_width="153dp"
                 android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
 
         </TableRow>
@@ -83,7 +83,7 @@
                 android:id="@+id/txtEasyGamesWonCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -102,7 +102,7 @@
                 android:id="@+id/txtEasyWinStreakCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -146,7 +146,7 @@
                 android:id="@+id/txtMediumGamesPlayedCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -165,7 +165,7 @@
                 android:id="@+id/txtMediumGamesWonCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -184,7 +184,7 @@
                 android:id="@+id/txtMediumWinStreakCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
     </TableLayout>
@@ -227,7 +227,7 @@
                 android:id="@+id/txtHardGamesPlayedCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -246,7 +246,7 @@
                 android:id="@+id/txtHardGamesWonCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
 
@@ -265,7 +265,7 @@
                 android:id="@+id/txtHardWinStreakCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TEMPORARY"
+                android:text="@string/_0"
                 android:textAppearance="@android:style/TextAppearance.Material.Small" />
         </TableRow>
     </TableLayout>
@@ -277,6 +277,7 @@
         android:layout_marginEnd="117dp"
         android:layout_marginStart="118dp"
         android:layout_marginTop="25dp"
+        android:onClick="resetStats"
         android:text="@string/reset_statistics"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

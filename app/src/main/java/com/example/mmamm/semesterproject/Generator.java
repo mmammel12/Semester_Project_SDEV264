@@ -1,7 +1,6 @@
 package com.example.mmamm.semesterproject;
 
 import java.util.Random;
-import android.util.Log;
 
 public class Generator {
     private int[][] rows = new int[9][9];

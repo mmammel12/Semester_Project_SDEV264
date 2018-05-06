@@ -92,6 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:onClick="setDifficulty"
             android:text="@string/easy" />
 
         <RadioButton
@@ -99,6 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="setDifficulty"
             android:text="@string/medium" />
 
         <RadioButton
@@ -106,6 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="setDifficulty"
             android:text="@string/hard" />
     </RadioGroup>
 
